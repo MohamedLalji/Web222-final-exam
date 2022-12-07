@@ -215,9 +215,9 @@ body {
 .button-link:hover {
     font-weight: 700;
     color: #fff;
-    background-color: #1A1A1A;
-    border: 2px solid #1A1A1A;
-    box-shadow: rgba(52, 155, 20, 0.25) 0 8px 15px;
+     background-color: #122a58;
+    border: 2px solid #15223a;
+    box-shadow: rgba(25, 63, 94, 0.25) 0 8px 15px;
     transform: translateY(-2px);
 }
 

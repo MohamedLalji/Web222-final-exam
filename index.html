@@ -1,0 +1,194 @@
+<!--
+/*
+ * WEB222 – Final Exam
+ *
+ * I declare that this assignment is my own work in accordance with
+ * Seneca Academic Policy. No part of this assignment has been
+ * copied manually or electronically from any other source
+ * (including web sites) or distributed to other students.
+ *
+ *      Name:       Mohamed Lalji
+ *      Student ID: 168229219
+ *      Date:       05 December 2022
+ */
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="google-site-verification" content="" />
+    <meta charset="utf-8" />
+    <meta name="author" content="Mohamed Lalji" />
+
+    <title>Mohamed Lalji Portfolio</title>
+    <link rel="stylesheet" href="Resume.css" type="text/css" />
+
+    <script src="Topic.js"></script>
+</head>
+
+<body>
+
+    <div id="me">
+        <img src="me.jpg" alt="Profile Picture">
+        <h1>Mohamed Lalji</h1>
+        <h3>Big Data Analyst</br>Software Engineer</h3>
+        </br>
+        <p></p>
+        <a href="Mohamedlalji_Resume.pdf" title="resume" download>
+            <span class="button-link" style="font-size: 150%; font-weight: 700;">RESUME</b></span>
+        </a>
+        <p></p>
+        <a href="#contact-me-ns" title="contact">
+            <span class="button-link" style="font-size: 150%; font-weight: 700;">CONTACT ME</b></span>
+        </a>
+    </div>
+
+    <div id="about-me" class="hvr-grow">
+        <div class="flex-container">
+
+            <div class="flex-child">
+                <table style="width:100%; border: 50px;">
+                    <tr>
+                        <th style="text-align: left;">
+                            <h4 class="hvr-grow">About Me</h2>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td style="text-align: justify; width: 60%;">
+                            My name is Mohamed, and I am originally from Tanzania. I had always wanted to learn how to code, and when the opportunity arose, I seized it. 
+                            I hope to advance my career in the database industry and eventually work for a large corporation. <br><br>
+
+                            <strong>Date:</strong> 2022-12-05
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="flex-child">
+                <table style="width:100%; border: 50px; text-align: left;">
+                    <tr>
+                        <th colspan="2" style="position:relative; right:60px;">
+                            <h4 class="hvr-grow">Basic Information</h2>
+                        </th>
+                    </tr>
+                    <tr>&nbsp;</tr>
+                    <tr>&nbsp;</tr>
+                    <tr>&nbsp;</tr>
+                    <tr>
+                        <td style="text-align: left;"><b>AGE</b></td>
+                        <td style="text-align: left;">19</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;"><b>EMAIL</b></td>
+                        <td style="text-align: left;">
+                            <a href="mailto:mlalji@myseneca.ca?subject = About Web222 Final">
+                                mlalji@myseneca.ca
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;"><b>LANGUAGES:</b></td>
+                        <td style="text-align: left;">English, Swahili</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;"><b>CLASS SECTION:</b></td>
+                        <td style="text-align: left;">NEE</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;"><b>STUDENT ID:</b></td>
+                        <td style="text-align: left;">168229219</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;"><b>INSTRUCTOR:</b></td>
+                        <td style="text-align: left;">BLESSING AJIBOYE</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <p></p>
+    <h3 style="color: white;">Education</h3>
+    <div id="education" class="hvr-grow">
+
+        <div class="table-row">
+            <div class="table-cell1">
+                <span class="centered-element">
+                    <b style="color: rgb(164, 160, 159);">2022 - 2025 (expected)</b>
+                    <br><br>
+                    <b style="color: rgb(164, 160, 159); font-size: larger;">Advanced Diploma</b>
+                </span>
+            </div>
+            <div class="table-cell2">
+                <span class="centered-element-2">
+                    <a href="https://www.senecacollege.ca/programs/fulltime/CPA.html">
+                        <b style="font-size: larger;">Computer Programming and Analysis</b>
+                    </a> <br>at
+                    <a href="https://www.senecacollege.ca/home.html">
+                        <img src="https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg"
+                            alt="seneca-logo" class="imgg">
+                    </a>
+
+                    <br>
+                    <br>
+                    <a href="https://www.senecacollege.ca/programs/fulltime/CPA/courses.html#menu"
+                        style="font-size: 110%;">
+                        <strong>Current semester: 2</strong> 
+                    </a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <h3 id="contact-me-ns" style="color: white;">Contact Me</h3>
+    <div id="contact">
+        <form id="mlalji" action="https://httpbin.org/post" method="POST">
+            <label for="Name" class="right-label">| NAME |</label><br>
+            <input type="text" id="input" name="Name" required />
+            <br><br>
+            <label for="Email" class="right-label">| EMAIL |</label><br>
+            <input type="email" id="input" name="Email" required />
+            <br><br>
+            <label for="Address" class="right-label">| ADDRESS |</label><br>
+            <input type="text" id="input" name="Address" required />
+            <br><br>
+            <label for="City" class="right-label">| CITY |</label><br>
+            <input type="text" id="input" name="City" list="canadian_cities" required />
+            <datalist id="canadian_cities">
+                <option value="Brampton"> </option>
+                <option value="Hamilton"> </option>
+                <option value="Kitchener"> </option>
+                <option value="London"> </option>
+                <option value="Mississauga"> </option>
+                <option value="Markham"> </option>
+                <option value="Ottawa"> </option>
+                <option value="Toronto"> </option>
+                <option value="Vaughan"> </option>
+                <option value="Windsor"> </option>
+            </datalist>
+            <br><br>
+
+            <label for="PostalCode" class="right-label">| POSTAL CODE |</label><br>
+            <input type="text" id="input" name="PostalCode" pattern="^[A-Za-z]\d[A-Za-z]+\s+\d[A-Za-z]\d$" required />
+            <br><br>
+            <label class="right-label">What is this about?</label><br>
+            ----------------------------------------------<br>
+            <input type="radio" id="JOB OFFER" name="about?" value="JOB OFFER" onclick="otherTopic()" checked />
+            <label for="JOB OFFER" style="color: rgb(255, 255, 255);">JOB OFFER</label>
+            
+            <input type="radio" id="school" name="about?" value="school" style="margin-top: 10px;" onclick="otherTopic()" />
+            <label for="school" style="color: rgb(255, 255, 255);">SCHOOL</label>
+            
+            <input type="radio" id="other" name="about?" value="other" onclick="otherTopic()" />
+            <label for="other" style="color: rgb(255, 255, 255);">OTHER</label><br><br>
+
+            <input type="text" id="other_topic" class="input" name="topic" placeholder="TOPIC" style="display: none; height: 30px; margin-bottom: 25px;" />
+
+            <textarea id="input" style="height: 100px; margin-top: -10px;" name="Comment Or Question" form="mlalji" placeholder="ENTER YOUR COMMENTS HERE..."></textarea><br><br>
+
+            <input class="button-link" type="submit" style="font-size: 150%; font-weight: 700;" value="SUBMIT FORM" />
+        </form>
+    </div>
+</body>
+
+</html>

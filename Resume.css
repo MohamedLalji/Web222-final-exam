@@ -222,6 +222,7 @@ body {
 }
 
 .button-link:active {
+    background-color: #00458B;
     font-weight: 700;
     box-shadow: none;
     transform: translateY(0);
